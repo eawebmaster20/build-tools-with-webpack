@@ -1,4 +1,5 @@
 import _ from 'lodash';
+import '../styles/main.sass';
 
 document.addEventListener('DOMContentLoaded',() => {
     const tools =[
