@@ -4,7 +4,8 @@ const HtmlWebPackPlugin = require('html-webpack-plugin');
 module.exports = {
   entry: './src/scripts/index.js',
   output: {
-    filename: 'bundle.js',
+    filename: '[name].bundle.js',
+    // filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
   },
   module: {
@@ -35,4 +36,5 @@ module.exports = {
     host: 'localhost',
     open: true,
   },
+  devtool:'source-map',
 };
