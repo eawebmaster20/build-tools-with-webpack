@@ -1,0 +1,43 @@
+body
+  font-family: Arial, Helvetica, sans-serif
+  background-color: #ad1e1e
+  color: #333
+  margin: 0
+  padding: 0
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+
+header
+  background-color: #333
+  color: #fff
+  padding: 1rem
+  text-align: center
+
+main
+  padding: 2rem
+  color: white
+  display: flex
+  gap:1rem
+  font-size:18px
+  font-weight: bold
+    
+main ul li#tools-list
+  animation: slideFadeIn 1s ease-in-out forwards
+
+footer
+  background-color: #333
+  color: #fff
+  padding: 1rem
+  text-align: center
+  position: fixed
+  width: 100%
+  bottom: 0
+
+@keyframes slideFadeIn
+  0%
+    opacity: 0
+    transform: translateY(20px) // Starts 20px below its final position
+  100%
+    opacity: 1
+    transform: translateY(0) // Moves to its final position
