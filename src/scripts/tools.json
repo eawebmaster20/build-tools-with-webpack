@@ -1,0 +1,7 @@
+[
+    {"name":  "Webpack"},
+    {"name": "Babel"},
+    {"name": "ESlint"},
+    {"name": "Vite"},
+    {"name": "Gulp"}
+]

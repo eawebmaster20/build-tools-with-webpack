@@ -1,14 +1,8 @@
 import _ from 'lodash';
 import '../styles/main.sass';
+import tools from './tools.json'
 
 document.addEventListener('DOMContentLoaded',() => {
-    const tools =[
-        {name: ' Webpack'},
-        {name: ' Babel'},
-        {name: ' ESlint'},
-        {name: ' Jest'},
-    ];
-
     const toolsList = document.getElementById('tools-list');
     tools.forEach(tool => {
         const li = document.createElement('li');
